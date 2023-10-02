@@ -15,7 +15,7 @@ const menuConfig = {
         {
             id: "menu-0",
             title: "Home",
-            path: "/portfolio",
+            path: "/abhi_portfolio_2023",
             icon: <AiFillHome size={35}/>,
             className: "nav-text"
         },
