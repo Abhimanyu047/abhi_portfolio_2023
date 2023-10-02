@@ -1,10 +1,10 @@
 {
   "main.css": "/abhi_portfolio_2023/static/css/main.f3e11d9d.chunk.css",
-  "main.js": "/abhi_portfolio_2023/static/js/main.b13ee2a6.chunk.js",
-  "main.js.map": "/abhi_portfolio_2023/static/js/main.b13ee2a6.chunk.js.map",
+  "main.js": "/abhi_portfolio_2023/static/js/main.82c665af.chunk.js",
+  "main.js.map": "/abhi_portfolio_2023/static/js/main.82c665af.chunk.js.map",
   "static/css/1.56238545.chunk.css": "/abhi_portfolio_2023/static/css/1.56238545.chunk.css",
-  "static/js/1.fab55ece.chunk.js": "/abhi_portfolio_2023/static/js/1.fab55ece.chunk.js",
-  "static/js/1.fab55ece.chunk.js.map": "/abhi_portfolio_2023/static/js/1.fab55ece.chunk.js.map",
+  "static/js/1.4ee7637f.chunk.js": "/abhi_portfolio_2023/static/js/1.4ee7637f.chunk.js",
+  "static/js/1.4ee7637f.chunk.js.map": "/abhi_portfolio_2023/static/js/1.4ee7637f.chunk.js.map",
   "runtime~main.js": "/abhi_portfolio_2023/static/js/runtime~main.d2f1f967.js",
   "runtime~main.js.map": "/abhi_portfolio_2023/static/js/runtime~main.d2f1f967.js.map",
   "static/media/sklearn_genetic_opt.png": "/abhi_portfolio_2023/static/media/sklearn_genetic_opt.23273bc8.png",
@@ -15,6 +15,6 @@
   "static/css/main.f3e11d9d.chunk.css.map": "/abhi_portfolio_2023/static/css/main.f3e11d9d.chunk.css.map",
   "static/css/1.56238545.chunk.css.map": "/abhi_portfolio_2023/static/css/1.56238545.chunk.css.map",
   "index.html": "/abhi_portfolio_2023/index.html",
-  "precache-manifest.543b5492c0e49decca67bcc65da061f7.js": "/abhi_portfolio_2023/precache-manifest.543b5492c0e49decca67bcc65da061f7.js",
+  "precache-manifest.92183fa86859a0e3a55f2e3647512cbc.js": "/abhi_portfolio_2023/precache-manifest.92183fa86859a0e3a55f2e3647512cbc.js",
   "service-worker.js": "/abhi_portfolio_2023/service-worker.js"
 }
