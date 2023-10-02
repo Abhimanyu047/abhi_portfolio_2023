@@ -1,7 +1,7 @@
 {
   "name": "portfolio",
   "version": "0.1.0",
-  "homepage": "https://abhimanyu047.github.io/abhi_portfolio_2023/",
+  "homepage": "https://abhimanyu047.github.io/portfolio/",
   "private": true,
   "dependencies": {
     "@iconify/iconify": "^2.1.0",
