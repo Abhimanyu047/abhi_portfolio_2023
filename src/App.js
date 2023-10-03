@@ -3,6 +3,7 @@ import ReactGA from 'react-ga';
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
 import Projects from "./pages/Projects";
+import ProjectPage1 from "./assets/configs/ProjectPage1";
 import Skills from "./pages/Skills/Skills";
 import Blogs from "./pages/Blogs"
 import ScrollToTop from "./components/ScrollToTop";
@@ -28,6 +29,7 @@ function App() {
                     <Route path="/" element={<Navigate to="/abhi_portfolio_2023" />} />
                     <Route path={"/abhi_portfolio_2023"} exact element={<Home/>}/>
                     <Route path={"/projects"} exact element={<Projects/>}/>
+                    <Route path="/project-1" element={<ProjectPage1 />} /> {/* Route for ProjectPage1 */}
                     <Route path={"/blogs"} exact element={<Blogs/>}/>
                     <Route path={"/skills"} exact element={<Skills/>}/>
                 </Routes>

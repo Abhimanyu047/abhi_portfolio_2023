@@ -28,8 +28,8 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-3",
-            title: "Data Scientist",
-            company: "Amex (On-Site)",
+            title: "Data Engineer I",
+            company: "IBM GBS - American Express Account(On-Site)",
             description: "Automated business processes using ML, built NLP based python applications," +
                 " recognized for taking POC projects to production at a fast pace.",
             date: "2020-2022",
@@ -49,22 +49,22 @@ const homeConfig = {
         {
             id: "work-1",
             title: "Data Science Internship",
-            company: "Avianca",
-            description: "Tech leader of a BI, Data Science and DBA team. " +
-                "Build forecast models, data warehouse and Power BI dashboards.",
-            date: "2018-2019",
+            company: "IBM India Pvt. Ltd.",
+            description: "Shadowing senior data scientist, upskilling through IBM certified trainings," +
+                " first hands-on industry project, learning about data warehouse and Power BI dashboards.",
+            date: "Jan 2019-June 2019",
             icon: <GiCommercialAirplane/>,
             tags: ["ml", "mssql", "python", "docker", "pbi", "azure"]
         },
-        {
-            id: "work-0",
-            title: "BI Analyst",
-            company: "Onelink BPO",
-            description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
-            date: "2016-2018",
-            icon: <BsClipboardData/>,
-            tags: ["python", "mssql", "pbi", "excel"]
-        }
+        // {
+        //     id: "work-0",
+        //     title: "BI Analyst",
+        //     company: "Onelink BPO",
+        //     description: "Build interactive dashboards, ETLs and SQL queries to show the company KPIs.",
+        //     date: "2016-2018",
+        //     icon: <BsClipboardData/>,
+        //     tags: ["python", "mssql", "pbi", "excel"]
+        // }
     ]
 }
 

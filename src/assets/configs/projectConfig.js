@@ -12,11 +12,13 @@ import React from 'react'
 const projectConfig = [
     {
         id: "project-5",
-        title: "Sklearn Genetic Opt",
+        title: "News Bias Mapping",
+        // url: '/project_1.html', //abhi added
         links: [
             {
                 name: "repo",
-                url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
+                // url: "https://github.com/rodrigo-arenas/Sklearn-genetic-opt",
+                url: '/project-1',
                 icon: <AiFillGithub/>,
             },
             {
