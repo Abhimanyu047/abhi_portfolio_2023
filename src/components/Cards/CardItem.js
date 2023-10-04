@@ -3,18 +3,31 @@ import CardIcons from "./CardIcons";
 import "./CardItem.css"
 
 const CardItem = (props) => {
+    const paragraphStyle = {
+        fontSize: "13px", // Set the font size to your desired value
+        lineHeight: "1.5", // Optional: Set the line height if needed
+        textAlign: 'center'
+      };
+    
 
     return (
 
         <div className={"card"} key={props.item.id}>
-            <a style={{display: "flex"}}
+            {/* <a style={{display: "flex"}}
                href={props.item.links[0].url}
                target={"_blank"}
-               rel={"noopener noreferrer"}>
+               rel={"noopener noreferrer"}> */}
             <div style={{backgroundImage: "url('"+props.item.image+"')"}} className="card__img" alt={props.item.title}/>
-            </a>
+            {/* </a> */}
             <div className={"card__body"}>
                 <h2 className={"card__title"}><strong>{props.item.title}</strong></h2>
+                <p style={paragraphStyle}>
+                    <a  href={props.item.links[0].url}
+                        target={"_blank"}
+                        rel={"noopener noreferrer"}>
+                    Click here to learn more..
+                    </a>
+                </p>
                 <p className={"card__description"}>{props.item.description}</p>
                 <hr className={"card__line"}/>
                 <CardIcons item={props.item}/>

@@ -6,6 +6,7 @@ import sklearnGenetic from "../images/sklearn_genetic_opt.png"
 import graphEmbeddings from "../images/graph_embeddings.png"
 import kafkaMl from "../images/kafkaml.png"
 import portfolio from "../images/portfolio.png"
+import senti_results from "../images/senti_results_100.png"
 
 import React from 'react'
 
@@ -13,7 +14,6 @@ const projectConfig = [
     {
         id: "project-5",
         title: "News Bias Mapping",
-        // url: '/project_1.html', //abhi added
         links: [
             {
                 name: "repo",
@@ -37,8 +37,9 @@ const projectConfig = [
                 icon: <ImBook/>,
             }
         ],
-        image: sklearnGenetic,
-        description: "scikit-learn models hyperparameters tuning and feature selection, using evolutionary algorithms.",
+        image: senti_results,
+        description: "A computational study for detecting and quantifying topical and sentiment" +
+        " bias in news articles using natural language processing techniques.",
         target: "_blank"
     },
     {
