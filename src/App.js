@@ -27,13 +27,13 @@ if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
 
 function App() {
     return (
-        <BrowserRouter basename="/abhi_portfolio_2023">
+        <BrowserRouter>
             <div className="App">
                 <NavBar/>
                 <ScrollToTop/>
                 <Routes>
                     {/* Redirect / to /abhi_portfolio_2023 */}
-                    {/* <Route path="/" element={<Navigate to="/abhi_portfolio_2023" />} /> */}
+                    <Route path="/" element={<Navigate to="/abhi_portfolio_2023" />} />
                     <Route path={"/abhi_portfolio_2023"} exact element={<Home/>}/>
                     <Route path={"/projects"} exact element={<Projects/>}/>
                     <Route path={"/about"} exact element={<About/>}/>

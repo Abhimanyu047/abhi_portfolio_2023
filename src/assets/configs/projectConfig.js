@@ -43,8 +43,8 @@ const projectConfig = [
             // }
         ],
         image: linear_regression1,
-        description: "Predicting Boston Housing Prices with TensorFlow Linear Regression",
-        target: "_blank"
+        description: "Predicting Boston Housing Prices with TensorFlow Linear Regression"
+        // target: "_blank"
     },
     {
         id: "project-2",
