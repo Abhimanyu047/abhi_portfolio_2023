@@ -38,7 +38,7 @@ function App() {
                     <Route path={"/projects"} exact element={<Projects/>}/>
                     <Route path={"/about"} exact element={<About/>}/>
                     <Route path={"/aboutMe"} exact element={<AboutMe/>}/>
-                    <Route path="/project-1" element={<ProjectPage1 />} /> Route for ProjectPage1
+                    <Route path={"/project-1"} element={<ProjectPage1 />} /> Route for ProjectPage1
                     <Route path="/project-2" element={<ProjectPage2 />} /> {/* Route for ProjectPage2 */}
                     <Route path="/project-3" element={<ProjectPage3 />} /> {/* Route for ProjectPage3 */}
                     <Route path="/project-4" element={<ProjectPage4 />} /> {/* Route for ProjectPage3 */}
