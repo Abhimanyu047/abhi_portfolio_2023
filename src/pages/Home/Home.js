@@ -1,7 +1,7 @@
 import React from 'react'
 import {Container, Row, Col} from "react-bootstrap";
 import DynamicTyping from "../../components/DynamicTyping";
-import About from "../../components/About";
+import About from "../../About";
 import Timeline from "../../components/Timeline/Timeline";
 import homeConfig from "../../assets/configs/homeConfig";
 

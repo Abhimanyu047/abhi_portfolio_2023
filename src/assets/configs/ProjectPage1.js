@@ -1,5 +1,5 @@
 import React from "react";
-import myImage from "../images/senti_results_100.png"; // Import the image
+import myImage from "../images/boston.webp"; // Import the image
 const ProjectPage1 = () => {
   const containerStyle = {
     display: "flex",
@@ -31,7 +31,9 @@ const ProjectPage1 = () => {
     // fontStyle: 'italic', // Change the font style
     // fontWeight: 'bold', // Change the font weight
     fontFamily: 'Arial, sans-serif', // Change the font family
-    textAlign: 'left'
+    padding: '10px', // Adjust the padding as needed
+    margin: '10px', // Adjust the margin as needed
+    textAlign: 'justify'
   };
 
   const centerText = {
@@ -40,8 +42,8 @@ const ProjectPage1 = () => {
   }
   return (
     <div className="project-page">
-      <h2 style={headingStyle}>Project 1: News Bias Mapping</h2>
-      <p style={subHeadingStyle}>MSc Research Project - University of Bath</p>
+      <h2 style={headingStyle}>Project 1: Linear Regression</h2>
+      <p style={subHeadingStyle}>MSc Data Science - Machine Learning Module</p>
       <div style={containerStyle}>
         <img
           src={myImage} // Replace with the actual path to your image
@@ -55,17 +57,40 @@ const ProjectPage1 = () => {
       <div style={textStyle}>
          <p style={centerText}>
           Keywords: 
-          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">ML - Unsupervised</span>
+          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">ML - Supervised</span>
           <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">Python</span>
-          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">NLP</span>
-          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">Sentiment Analysis</span>
-          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">Topic Modelling</span>
-          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">LDA</span>
+          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">TensorFlow</span>
+          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">Predictive Modelling</span>
+          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">Matplotlib</span>
+          <span class="tag mr-2 mb-2 badge rounded-pill bg-secondary">Feature Engineering</span>
         </p>
       </div>
       <div style={textStyle}>
         <p>
-          Actual work done in project begins here...
+          <b>Dataset Description: </b>
+          The Boston Housing Price dataset contains 13 features, such as crime rates, room counts, 
+          and pupil-teacher ratios, with the target variable being the median housing price in 
+          thousands of dollars. It comprises 506 data points and was obtained from the UCI 
+          Machine Learning Repository.
+        </p>
+        <p>
+          <b>Overview: </b>
+          The task at hand was to build a machine learning model using TensorFlow for predicting the 
+          median value of owner-occupied homes in different Boston neighborhoods. We used the Boston 
+          Housing Price dataset, a classic choice for learning and practicing linear regression
+        </p>
+        <p>
+          <b>Implementation: </b>
+          <ul>
+            <li>Data cleaning: Checked for missing values and inconsistencies.</li>
+            <li>Feature selection: Analyzed feature importance and relevance to the target variable.</li>
+            <li>Feature scaling: Normalized features to maintain consistency.</li>
+            <li>Split the dataset into training (80%) and testing (20%) subsets for model evaluation.</li>
+            <li>Model Architecture: Developed a linear regression model using TensorFlow's high-level APIs.</li>
+            <li>Model Training: Mean Squared Error as the loss function and Stochastic Gradient Descent as the optimizer.</li>
+            <li>Model Evaluation: Utilized evaluation metrics like Mean Absolute Error (MAE), Mean Squared Error (MSE), 
+              and Root Mean Squared Error (RMSE) to quantify accuracy.</li>
+          </ul>
         </p>
       </div>
     </div>
