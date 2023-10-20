@@ -2,6 +2,7 @@ import React from 'react'
 import CardIcons from "./CardIcons";
 import "./CardItem.css"
 import { useNavigate } from 'react-router-dom';
+import { useState } from 'react';
 const CardItem = (props) => {
     const paragraphStyle = {
         fontSize: "13px", // Set the font size to your desired value
@@ -13,6 +14,16 @@ const CardItem = (props) => {
     // Navigate to the URL specified in the "links" component
     navigate(props.item.links[0].url);
     };
+    const linkStyles = {
+        color: '#007bff', /* Set the link color */
+        textDecoration: 'underline', /* Add underline to mimic a link */
+        cursor: 'pointer', /* Change cursor to pointer on hover */
+      };
+    
+      const linkHoverStyles = {
+        color: '#0056b3', /* Change link color on hover */
+      };
+      const [hovering, setHovering] = useState(false);
 
     return (
 
@@ -29,7 +40,11 @@ const CardItem = (props) => {
                     {/* <a  href={props.item.links[0].url}
                         // target={"_blank"}
                         rel={"noopener noreferrer"}> */}
-                    <a onClick={handleLearnMoreClick}>
+                    {/* <a onClick={handleLearnMoreClick}> */}
+                    <a
+                        onClick={handleLearnMoreClick}
+                        style={{ ...linkStyles, ...(hovering && linkHoverStyles) }}
+                    >
                         Click here to learn more..
                     </a>
                 </p>
