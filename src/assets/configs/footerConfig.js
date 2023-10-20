@@ -14,7 +14,7 @@ const footerConfig = {
         // },
         {
             id: "footer-1",
-            url: "https://linkedin.com/in/rodrigo-arenas-gomez",
+            url: "https://www.linkedin.com/in/abhi-sangitrao/",
             className: "social-icon",
             target: "_blank",
             icon: <FaLinkedinIn size={50}/>
