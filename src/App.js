@@ -1,4 +1,4 @@
-import {BrowserRouter as Router, Routes, Route, Navigate, HashRouter} from "react-router-dom";
+import {BrowserRouter as Router, Routes, Route, Navigate, HashRouter, BrowserRouter} from "react-router-dom";
 import ReactGA from 'react-ga';
 import NavBar from "./components/NavBar/NavBar";
 import Home from "./pages/Home/Home";
@@ -27,13 +27,13 @@ if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
 
 function App() {
     return (
-        <Router>
+        <BrowserRouter>
             <div className="App">
                 <NavBar/>
                 <ScrollToTop/>
-                <Routes basename={process.env.PUBLIC_URL}>
+                <Routes>
                     {/* Redirect / to /abhi_portfolio_2023 */}
-                    <Route path="/" element={<Navigate to="/abhi_portfolio_2023" />} />
+                    {/* <Route path="/" element={<Navigate to="/abhi_portfolio_2023" />} /> */}
                     <Route path={"/abhi_portfolio_2023"} exact element={<Home/>}/>
                     <Route path={"/projects"} exact element={<Projects/>}/>
                     <Route path={"/about"} exact element={<About/>}/>
@@ -49,7 +49,7 @@ function App() {
                 </Routes>
                 <Footer/>
             </div>
-        </Router>
+        </BrowserRouter>
 
     )
 
