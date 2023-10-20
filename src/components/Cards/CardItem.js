@@ -23,7 +23,7 @@ const CardItem = (props) => {
                 <h2 className={"card__title"}><strong>{props.item.title}</strong></h2>
                 <p style={paragraphStyle}>
                     <a  href={props.item.links[0].url}
-                        target={"_blank"}
+                        // target={"_blank"}
                         rel={"noopener noreferrer"}>
                     Click here to learn more..
                     </a>
