@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "61b498fbc3320c85d011",
+    "revision": "ad1910d9a77b99e6acd7",
     "url": "/abhi_portfolio_2023/static/css/main.3f7ff83a.chunk.css"
   },
   {
-    "revision": "61b498fbc3320c85d011",
-    "url": "/abhi_portfolio_2023/static/js/main.61b498fb.chunk.js"
+    "revision": "ad1910d9a77b99e6acd7",
+    "url": "/abhi_portfolio_2023/static/js/main.ad1910d9.chunk.js"
   },
   {
     "revision": "94b1a0e647fff644f794",
@@ -92,7 +92,7 @@ self.__precacheManifest = [
     "url": "/abhi_portfolio_2023/static/media/senti_results_100.ab84cf76.png"
   },
   {
-    "revision": "891d1cae2f98b057976808482ba3baf3",
+    "revision": "946d87fa66250aa1c9ca458cdbf4fc64",
     "url": "/abhi_portfolio_2023/index.html"
   }
 ];
