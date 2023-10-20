@@ -27,7 +27,7 @@ if (typeof process.env.REACT_APP_TRACKING_ID !== 'undefined') {
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename="/abhi_portfolio_2023">
             <div className="App">
                 <NavBar/>
                 <ScrollToTop/>
