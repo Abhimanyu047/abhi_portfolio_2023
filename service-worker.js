@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/abhi_portfolio_2023/precache-manifest.0ebd528cd5f4afacecad2ab62dbe2c1c.js"
+  "/abhi_portfolio_2023/precache-manifest.b79760d4a2582069d5e06b7e6aad294d.js"
 );
 
 workbox.clientsClaim();
