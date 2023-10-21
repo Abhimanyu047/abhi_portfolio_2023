@@ -13,7 +13,7 @@ const homeConfig = {
     titles: [
         "Data Scientist",
         "Machine Learning Enthusiast",
-        "Python Backend Developer",
+        "Python Developer",
     ],
     about: {
         start: "I'm a passionate Data Scientist with over 4 years of experience working in this field." +
