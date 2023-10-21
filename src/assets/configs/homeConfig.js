@@ -16,8 +16,8 @@ const homeConfig = {
         "Python Backend Developer",
     ],
     about: {
-        start: "I'm a passionate Data Scientist with over 4 years of experience working in the tech industry." +
-            " Having worked with internationl clients, I possess strong communication," +
+        start: "I'm a passionate Data Scientist with over 4 years of experience working in this field." +
+            " Having worked with multinational companies like IBM, I possess strong communication," +
             " problem-solving, time management and leadereship skills." + 
             " What sets me apart is my relentless pursuit of innovation and my entrepreneurial mindset." +
             " I thrive on disrupting conventional methodologies and crafting data-driven solutions that drive tangible business impact." + 
@@ -28,13 +28,13 @@ const homeConfig = {
     workTimeline: [
         {
             id: "work-3",
-            title: "Data Engineer I",
-            company: "IBM GBS - American Express Account(On-Site)",
-            description: "Automated business processes using ML, built NLP based python applications," +
-                " recognized for taking POC projects to production at a fast pace.",
-            date: "2020-2022",
+            title: "MSc Data Science",
+            company: "University of Bath",
+            description: "Fruther strengthened core concepts in Machine Learning and Data Science " +
+            "along with hands-on projects in Deep learning, ML based Research project and assignments.",
+            date: "2022-2023",
             icon: <DiCodeigniter/>,
-            tags: ["ml", "python", "docker", "NLP", "SQL","automl"]
+            tags: ["ml", "python", "Data Science", "Statistics", "NLP","Deep Learning"]
         },
         {
             id: "work-2",
