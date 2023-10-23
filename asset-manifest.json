@@ -1,7 +1,7 @@
 {
   "main.css": "/abhi_portfolio_2023/static/css/main.3f7ff83a.chunk.css",
-  "main.js": "/abhi_portfolio_2023/static/js/main.df14568e.chunk.js",
-  "main.js.map": "/abhi_portfolio_2023/static/js/main.df14568e.chunk.js.map",
+  "main.js": "/abhi_portfolio_2023/static/js/main.67c7d08a.chunk.js",
+  "main.js.map": "/abhi_portfolio_2023/static/js/main.67c7d08a.chunk.js.map",
   "static/css/1.db5bbecc.chunk.css": "/abhi_portfolio_2023/static/css/1.db5bbecc.chunk.css",
   "static/js/1.d3694be9.chunk.js": "/abhi_portfolio_2023/static/js/1.d3694be9.chunk.js",
   "static/js/1.d3694be9.chunk.js.map": "/abhi_portfolio_2023/static/js/1.d3694be9.chunk.js.map",
@@ -28,6 +28,6 @@
   "static/css/main.3f7ff83a.chunk.css.map": "/abhi_portfolio_2023/static/css/main.3f7ff83a.chunk.css.map",
   "static/css/1.db5bbecc.chunk.css.map": "/abhi_portfolio_2023/static/css/1.db5bbecc.chunk.css.map",
   "index.html": "/abhi_portfolio_2023/index.html",
-  "precache-manifest.3c45e38519e59cbf88d3bd028fe76707.js": "/abhi_portfolio_2023/precache-manifest.3c45e38519e59cbf88d3bd028fe76707.js",
+  "precache-manifest.9f66a8c1526ed1642c88fe02a199469b.js": "/abhi_portfolio_2023/precache-manifest.9f66a8c1526ed1642c88fe02a199469b.js",
   "service-worker.js": "/abhi_portfolio_2023/service-worker.js"
 }
