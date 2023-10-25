@@ -30,6 +30,13 @@ const centerText = {
     textAlign: 'center',
     fontWeight: 'bold'
 };
+const leftText = {
+    color: "black",
+    fontFamily: "Arial, sans-serif",
+    fontSize: '22px',
+    textAlign: 'left',
+    fontWeight: 'bold'
+};
 
 const headingStyle = {
     color: 'black',
@@ -76,7 +83,7 @@ const rightColumnStyle = {
     fontSize: '16px',
     textAlign: "justify",
     maxWidth: "350px",
-    margin: "0 0 200px 0",
+    margin: "0 0 225px 0",
     padding: "50px"
 };
 
@@ -167,7 +174,7 @@ const itemStyle = {
           {/* Right Column */}
           <div style={rightColumnStyle}>
             <ul style={listStyle}>
-              <li style={centerText}>
+              <li style={leftText}>
                 <span><FontAwesomeIcon />{" "}Achievements (IBM)</span>
               </li>
               <li style={itemStyle}>
@@ -182,9 +189,9 @@ const itemStyle = {
               <li style={itemStyle}>
                 <span><FontAwesomeIcon icon={faCertificate} />{" "}Microsoft Azure Fundamentals</span>
               </li>
-            </ul>
-            <ul style={listStyle}>
-              <li style={centerText}>
+            {/* </ul>
+            <ul style={listStyle}> */}
+              <li style={leftText}>
                 <span><FontAwesomeIcon />Now Exploring</span>
               </li>
               <li style={itemStyle}>
