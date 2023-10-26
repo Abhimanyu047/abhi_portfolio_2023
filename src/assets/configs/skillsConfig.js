@@ -19,7 +19,7 @@ import {
     SiApachespark
 } from "react-icons/si";
 import {GrMysql} from "react-icons/gr";
-import {FaGitAlt,FaDatabase, FaRobot} from "react-icons/fa";
+import {FaGitAlt,FaDatabase, FaRobot,FaChartBar} from "react-icons/fa";
 import { AiOutlineFileText } from "react-icons/ai";
 
 import React from "react";
@@ -35,7 +35,7 @@ const skillsConfig = {
         {
             id: "skills-1",
             className: "skill-icon",
-            icon: <FaDatabase size={50}/>,
+            icon: <FaChartBar size={50}/>,
             text: "Data Science"
         },
         {
