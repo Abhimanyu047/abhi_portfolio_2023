@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import "../../../src/about_me.css";
 import prof_pic from "../images/prof_pic2.jpg";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faFutbol, faMusic, fas, faFilm, faPlane, faTrophy, faCertificate, faCompass } from '@fortawesome/free-solid-svg-icons';
+import { faFutbol, faMusic, fas, faFilm, faPlane, faTrophy, faCertificate, faCompass, faLanguage } from '@fortawesome/free-solid-svg-icons';
 
 const AboutMe = (props) => {
 const containerStyle = {
@@ -51,6 +51,13 @@ const subHeadingStyle = {
     fontFamily: 'Arial, sans-serif',
     textAlign: 'center',
 };
+const emailStyle = {
+  color: 'black',
+  fontStyle: 'italic',
+  fontFamily: 'Arial, sans-serif',
+  textAlign: 'center',
+  fontSize: '16px'
+};
 
 const centerImage = {
     textAlign: 'center',
@@ -73,7 +80,7 @@ const leftColumnStyle = {
     fontSize: '16px',
     textAlign: "justify",
     maxWidth: "300px",
-    margin: "0 0 450px 0",
+    margin: "0 0 250px 0",
     padding: "50px"
 };
 
@@ -83,7 +90,7 @@ const rightColumnStyle = {
     fontSize: '16px',
     textAlign: "justify",
     maxWidth: "350px",
-    margin: "0 0 225px 0",
+    margin: "0 0 90px 0",
     padding: "50px"
 };
 
@@ -123,6 +130,19 @@ const itemStyle = {
               <li style={itemStyle}>
                 <span><FontAwesomeIcon icon={faPlane} />{" "}Traveling</span>
               </li>
+              <li><br></br></li> {/* Blank list element to add white space*/}
+              <li style={centerText}>
+                <span><FontAwesomeIcon />{" "}Languages</span>
+              </li>
+              <li style={itemStyle}>
+                <span><FontAwesomeIcon icon={faLanguage} />{" "}English</span>
+              </li>
+              <li style={itemStyle}>
+                <span><FontAwesomeIcon icon={faLanguage} />{" "}Hindi</span>
+              </li>
+              <li style={itemStyle}>
+                <span><FontAwesomeIcon icon={faLanguage} />{" "}Marathi</span>
+              </li>
             </ul>
           </div>
 
@@ -132,36 +152,41 @@ const itemStyle = {
               <img className='round-image' src={prof_pic} width='auto' height='auto' alt="Profile" />
             </div>
             <h3 style={headingStyle}>Abhimanyu Sangitrao</h3>
-            <h5 style={subHeadingStyle}>Data Scientist | Machine Learning | Python Developer</h5>
+            <h5 style={subHeadingStyle}>
+              <h7 style={emailStyle}><u>abhi.workk47@gmail.com</u></h7>
+              <br></br>
+              Data Scientist | Machine Learning | Python Developer
+            </h5>
+            
             <div style={textStyle}>
             <p>
-                I remember my very first interaction with a computer program, back in school, when we were made to write some procedures 
+                I remember my very <b>first interaction with a computer program</b>, back in school, when we were made to write some procedures 
                 (there was a thing called "logo" back in the early 2000s) or steps in order to make the "turtle" move up and down on the screen. 
-                I was very overwhelmed and fascinated to see the turtle follow my instructions. As I grew up, I used to play a lot of computer games (Age of Mythology still my favorite) and had to face a lot of 
+                I was very overwhelmed and fascinated to see the turtle follow my instructions. As I grew up, I used to play a lot of <b>computer games</b> (Age of Mythology still my favorite) and had to face a lot of 
                 problems while installing those games, but, that gave me an idea about how a software product is built, how powerful 
-                operating systems are, why are there so many files, etc. and that developed my interest in software development and 
+                operating systems are, why are there so many files, etc. and that developed my <b>interest in software development</b> and 
                 programming, even more. 
             </p>
                 
 
             <p>
-                During my Bachelor's degree, I learnt a lot about programming languages, Data Structures and Algorithms, 
-                SQL, Natural Language Processing, Predictive Modelling, etc. In the final year, I was quite confident
-                to start my career either in Software Engineering or Data Analytics. Fortunately, I got an internship
-                at IBM and I completed my undergraduate degree with a distinction grade.
+                During my <b>Bachelor's degree</b>, I learnt a lot about programming languages, Data Structures and Algorithms, 
+                SQL, Natural Language Processing, Predictive Modelling, etc. In the <b>final year</b>, I was quite confident
+                to start my career either in Software Engineering or Data Analytics. Fortunately, I got an <b>internship
+                at IBM</b> and I completed my undergraduate degree with a <b>distinction grade</b>.
             </p>
             <p>
-                I kick-started my career in Data Science at IBM and it was a wonderful journey of about three years. 
+                I kick-started my career in <b>Data Science</b> at <b>IBM</b> and it was a wonderful journey of about <b>three years</b>. 
                 I met some really amazing people, got to learn a lot more than I had learnt in my degree,
-                worked on real-time industry problems and datasets, worked on-site with international clients like American
+                worked on real-time <b>industry problems</b> and datasets, worked on-site with <b>international clients</b> like American
                 Express and finally I decided to take a break from my career and pursue higher education.
                 
             </p>
             <p>
-                In September 2022, I came to the UK to pursue my Masters Degee in Data Science from the University of Bath.
+                In <b>September 2022</b>, I came to the UK to pursue my <b>Masters Degee</b> in <b>Data Science</b> from the <b>University of Bath</b>.
                 It was a bit intense course but a lot more in depth and full of interesting stuff! This course
-                gave me a further direction in my career and I am glad I took the risk to leave my job and come all the way to 
-                England. I have successfully completed my course in September 2023 and still exploring more about the topics that
+                gave me a <b>further direction in my career</b> and I am glad I took the risk to leave my job and come all the way to 
+                England. I have <b>successfully completed</b> my course in <b>September 2023</b> and still exploring more about the topics that
                 I have learnt during my course.
             </p>
             {/* <p>
@@ -189,19 +214,27 @@ const itemStyle = {
               <li style={itemStyle}>
                 <span><FontAwesomeIcon icon={faCertificate} />{" "}Microsoft Azure Fundamentals</span>
               </li>
-            {/* </ul>
-            <ul style={listStyle}> */}
+              <li><br></br></li> {/* Blank list element to add white space*/}
               <li style={leftText}>
-                <span><FontAwesomeIcon />Now Exploring</span>
+                <span><FontAwesomeIcon />Exploring jobs in:</span>
               </li>
               <li style={itemStyle}>
                 <span><FontAwesomeIcon icon={faCompass} />{" "}NLP</span>
               </li>
               <li style={itemStyle}>
-                <span><FontAwesomeIcon icon={faCompass} />{" "}Azure Databricks</span>
+                <span><FontAwesomeIcon icon={faCompass} />{" "}AI/Machine Learning</span>
               </li>
               <li style={itemStyle}>
-                <span><FontAwesomeIcon icon={faCompass} />{" "}PySpark</span>
+                <span><FontAwesomeIcon icon={faCompass} />{" "}Data Science</span>
+              </li>
+              <li style={itemStyle}>
+                <span><FontAwesomeIcon icon={faCompass} />{" "}Big Data</span>
+              </li>
+              <li style={itemStyle}>
+                <span><FontAwesomeIcon icon={faCompass} />{" "}Python Development</span>
+              </li>
+              <li style={itemStyle}>
+                <span><FontAwesomeIcon icon={faCompass} />{" "}Software Engineering</span>
               </li>
             </ul>
           </div>
